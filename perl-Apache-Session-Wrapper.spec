@@ -18,7 +18,6 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(Apache::Cookie)
 BuildRequires:	perl-Apache-Session >= 1.6
 BuildRequires:	perl-Class-Container
 BuildRequires:	perl-Exception-Class
