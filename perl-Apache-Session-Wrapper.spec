@@ -9,7 +9,7 @@ Summary:	Apache::Session::Wrapper - A simple wrapper around Apache::Session
 Summary(pl):	Apache::Session::Wrapper - prosty wrapper na Apache::Session
 Name:		perl-Apache-Session-Wrapper
 Version:	0.17
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
