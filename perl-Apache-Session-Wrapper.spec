@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_with	tests	# perform "make test" (requires webserver package via Apache::TestRunPerl)
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Apache
@@ -8,17 +8,18 @@
 Summary:	Apache::Session::Wrapper - A simple wrapper around Apache::Session
 Summary(pl):	Apache::Session::Wrapper - prosty wrapper na Apache::Session
 Name:		perl-Apache-Session-Wrapper
-Version:	0.26
+Version:	0.31
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3da1330b76d1305bde3bbfee7e82ae17
+# Source0-md5:	2a5d87f389a5cc8c0d14a248cb1cc291
+URL:		http://search.cpan.org/dist/Apache-Session-Wrapper/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Apache-Session >= 1.6
+BuildRequires:	perl-Apache-Session >= 1:1.81
 BuildRequires:	perl-Class-Container
 BuildRequires:	perl-Exception-Class
 BuildRequires:	perl-Params-Validate >= 0.7
