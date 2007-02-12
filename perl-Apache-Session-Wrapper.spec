@@ -6,7 +6,7 @@
 %define		pdir	Apache
 %define		pnam	Session-Wrapper
 Summary:	Apache::Session::Wrapper - A simple wrapper around Apache::Session
-Summary(pl):	Apache::Session::Wrapper - prosty wrapper na Apache::Session
+Summary(pl.UTF-8):   Apache::Session::Wrapper - prosty wrapper na Apache::Session
 Name:		perl-Apache-Session-Wrapper
 Version:	0.31
 Release:	1
@@ -31,9 +31,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module is a simple wrapper around Apache::Session which provides
 some methods to simplify getting and setting the session id.
 
-%description -l pl
-Ten modu³ jest prostym wrapperem na Apache::Session dostarczaj±cym
-metody upraszczaj±ce uzyskiwanie i ustawianie identyfikatorów sesji.
+%description -l pl.UTF-8
+Ten moduÅ‚ jest prostym wrapperem na Apache::Session dostarczajÄ…cym
+metody upraszczajÄ…ce uzyskiwanie i ustawianie identyfikatorÃ³w sesji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
