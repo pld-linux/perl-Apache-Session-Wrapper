@@ -6,7 +6,7 @@
 %define		pdir	Apache
 %define		pnam	Session-Wrapper
 Summary:	Apache::Session::Wrapper - A simple wrapper around Apache::Session
-Summary(pl.UTF-8):   Apache::Session::Wrapper - prosty wrapper na Apache::Session
+Summary(pl.UTF-8):	Apache::Session::Wrapper - prosty wrapper na Apache::Session
 Name:		perl-Apache-Session-Wrapper
 Version:	0.31
 Release:	1
