@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires webserver package via Apache::TestRunPerl)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Apache
 %define		pnam	Session-Wrapper
 Summary:	Apache::Session::Wrapper - A simple wrapper around Apache::Session
